@@ -1,7 +1,7 @@
 {
   "app-id": "com.neatdecisions.Detwinner",
   "runtime": "org.gnome.Sdk",
-  "runtime-version": "3.32",
+  "runtime-version": "3.34",
   "sdk": "org.gnome.Sdk",
   "command": "detwinner",
   "finish-args": [
@@ -83,8 +83,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.60/glibmm-2.60.0.tar.xz",
-          "sha256": "a3a1b1c9805479a16c0018acd84b3bfff23a122aee9e3c5013bb81231aeef2bc"
+          "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.62/glibmm-2.62.0.tar.xz",
+          "sha256": "36659f13cc73282392d1305858f3bbca46fbd1ce2f078cc9db8b9f79b2e93cfe"
         }
       ]
     },
@@ -135,8 +135,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.0.tar.xz",
-          "sha256":"cf5fc92805e581c8303e08d54519457ba07f15b766e9b1edde4862993ac1aa43"
+          "url": "http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.2.tar.xz",
+          "sha256":"6d71091bcd1863133460d4188d04102810e9123de19706fb656b7bb915b4adc3"
         }
       ]
     },
@@ -158,8 +158,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/neatdecisions/detwinner/archive/v0.2.2.tar.gz",
-          "sha256": "76c02e51618545e96e2731b0742099c42080e77e96a0f9161acc1fa99d027921"
+          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.0.tar.gz",
+          "sha256": "92b66163828423830f0dd72f7188257d2adb72135314f1e3aa42483f7f475f5e"
         }
       ]
     }
