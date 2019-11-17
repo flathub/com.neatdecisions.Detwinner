@@ -44,7 +44,7 @@
       "config-opts": [
         "--enable-shared",
         "--disable-static",
-        "--with-quantum-depth=8",
+        "--with-quantum-depth=16",
         "--with-threads",
         "--without-dps",
         "--without-lcms2",
@@ -155,6 +155,7 @@
       "name": "detwinner",
       "buildsystem": "meson",
       "builddir": true,
+      "run-tests": true,
       "sources": [
         {
           "type": "archive",
