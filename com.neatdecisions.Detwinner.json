@@ -155,7 +155,6 @@
       "name": "detwinner",
       "buildsystem": "meson",
       "builddir": true,
-      "run-tests": true,
       "sources": [
         {
           "type": "archive",
