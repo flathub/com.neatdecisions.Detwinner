@@ -1,6 +1,6 @@
 {
   "app-id": "com.neatdecisions.Detwinner",
-  "runtime": "org.gnome.Sdk",
+  "runtime": "org.gnome.Platform",
   "runtime-version": "3.34",
   "sdk": "org.gnome.Sdk",
   "command": "detwinner",
@@ -44,7 +44,7 @@
       "config-opts": [
         "--enable-shared",
         "--disable-static",
-        "--with-quantum-depth=8",
+        "--with-quantum-depth=16",
         "--with-threads",
         "--without-dps",
         "--without-lcms2",
@@ -158,8 +158,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.0.tar.gz",
-          "sha256": "92b66163828423830f0dd72f7188257d2adb72135314f1e3aa42483f7f475f5e"
+          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.1.tar.gz",
+          "sha256": "172a2711d0479925e1741841da2a43324d478350c5b422dde115a63555db0cf7"
         }
       ]
     }
