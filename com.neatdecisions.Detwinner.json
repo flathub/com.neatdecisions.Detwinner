@@ -25,13 +25,13 @@
     "/lib/gdkmm-3.0",
     "/lib/giomm-2.4",
     "/lib/glibmm-2.4",
-    "/lib/GraphicsMagick-1.3.33",
+    "/lib/GraphicsMagick-1.3.34",
     "/lib/gtkmm-3.0",
     "/lib/pangomm-1.4",
     "/lib/pkgconfig",
     "/lib/sigc++-2.0",
     "/share/doc",
-    "/share/GraphicsMagick-1.3.33",
+    "/share/GraphicsMagick-1.3.34",
     "/share/man",
     "/share/pkgconfig",
     "*.la",
@@ -57,8 +57,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.33/GraphicsMagick-1.3.33.tar.gz",
-          "sha256":"00ea0df7c78c903cce325f402429bcd3924168cf39277f743a0641d47c411ee8"
+          "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.34/GraphicsMagick-1.3.34.tar.gz",
+          "sha256":"4717f7a32d964c515d83706fd52d34e089c2ffa35f8fbf43c923ce19343cf2f4"
         }
       ]
     },
@@ -158,8 +158,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.1.tar.gz",
-          "sha256": "172a2711d0479925e1741841da2a43324d478350c5b422dde115a63555db0cf7"
+          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.2.tar.gz",
+          "sha256": "87b4724e2d88d989f3f86286cb0bb2d07a460f3c03e314af2c7977a7ef56e6d6"
         }
       ]
     }
