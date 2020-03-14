@@ -158,8 +158,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.3.tar.gz",
-          "sha256": "e6592e00b1c4d334573c015341fedb473491afdeff3bd6245862859f61fb5214"
+          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.3-fix.tar.gz",
+          "sha256": "f14b67a3f7ca7a23a007f4c214d6d2b9bb5db094bd341a8baba4dce186d62571"
         }
       ]
     }
