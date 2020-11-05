@@ -1,7 +1,7 @@
 {
   "app-id": "com.neatdecisions.Detwinner",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.36",
+  "runtime-version": "3.38",
   "sdk": "org.gnome.Sdk",
   "command": "detwinner",
   "finish-args": [
@@ -17,6 +17,7 @@
   "cleanup": [
     "/bin/gm",
     "/bin/GraphicsMagick*",
+    "/bin/mm-common*",
     "/include",
     "/lib/atkmm*",
     "/lib/cairomm*",
@@ -30,9 +31,11 @@
     "/lib/pangomm*",
     "/lib/pkgconfig",
     "/lib/sigc++*",
+    "/share/aclocal",
     "/share/doc",
     "/share/GraphicsMagick*",
     "/share/man",
+    "/share/mm-common",
     "/share/pkgconfig",
     "*.la",
     "*.a"
@@ -63,6 +66,16 @@
       ]
     },
     {
+      "name" : "mm-common",
+      "sources" : [
+        {
+          "type" : "archive",
+          "url" : "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.2.tar.xz",
+          "sha256" : "a2a99f3fa943cf662f189163ed39a2cfc19a428d906dd4f92b387d3659d1641d"
+        }
+      ]
+    },
+    {
       "name": "sigc++",
       "config-opts": [
         "--disable-documentation"
@@ -70,8 +83,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.2.tar.xz",
-          "sha256": "b1ca0253379596f9c19f070c83d362b12dfd39c0a3ea1dd813e8e21c1a097a98"
+          "url": "http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.4.tar.xz",
+          "sha256": "1f5874358d9a21379024a4f4edba80a8a3aeb33f0531b192a6b1c35ed7dbfa3e"
         }
       ]
     },
@@ -96,8 +109,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.cairographics.org/releases/cairomm-1.12.2.tar.gz",
-          "sha256": "45c47fd4d0aa77464a75cdca011143fea3ef795c4753f6e860057da5fb8bd599"
+          "url": "https://www.cairographics.org/releases/cairomm-1.14.2.tar.xz",
+          "sha256": "0126b9cc295dc36bc9c0860d5b720cb5469fd78d5620c8f10cc5f0c07b928de3"
         }
       ]
     },
@@ -146,8 +159,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/google/googletest/archive/release-1.8.1.tar.gz",
-          "sha256": "9bf1fe5182a604b4135edc1a425ae356c9ad15e9b23f9f12a02e80184c3a249c"
+          "url": "https://github.com/google/googletest/archive/release-1.10.0.tar.gz",
+          "sha256": "9dc9157a9a1551ec7a7e43daea9a694a0bb5fb8bec81235d8a1e6ef64c716dcb"
         }
       ]
     },
@@ -158,8 +171,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/neatdecisions/detwinner/archive/v0.3.4.tar.gz",
-          "sha256": "bc7a612f5f8da674adddd6c09739a39663c9e909b77b330464339edb0076ac16"
+          "url": "https://github.com/neatdecisions/detwinner/archive/v0.4.0.tar.gz",
+          "sha256": "e3eb5617d184075bea1bd182ffd73aee6f4933cb8c214b90758e41ada01ba538"
         }
       ]
     }
