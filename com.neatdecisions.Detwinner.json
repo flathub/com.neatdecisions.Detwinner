@@ -1,7 +1,7 @@
 {
   "app-id": "com.neatdecisions.Detwinner",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.38",
+  "runtime-version": "40",
   "sdk": "org.gnome.Sdk",
   "command": "detwinner",
   "finish-args": [
@@ -11,6 +11,7 @@
     "--filesystem=host",
     "--filesystem=xdg-config/gtk-3.0",
     "--talk-name=org.gtk.vfs",
+    "--filesystem=xdg-run/gvfsd",
     "--talk-name=org.gtk.vfs.*",
     "--talk-name=org.freedesktop.portal.Trash"
   ],
