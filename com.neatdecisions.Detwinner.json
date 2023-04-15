@@ -1,7 +1,7 @@
 {
   "app-id": "com.neatdecisions.Detwinner",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "44",
   "sdk": "org.gnome.Sdk",
   "command": "detwinner",
   "finish-args": [
@@ -62,8 +62,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.38/GraphicsMagick-1.3.38.tar.gz",
-          "sha256":"35b8661f508337314e46aebcbdca6875cc6033a1cf3edff29aa5e14ef8d2d4e1"
+          "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.40/GraphicsMagick-1.3.40.tar.gz",
+          "sha256":"88ddbf76e1ced2ab6bcd743207ee308865de1afb4b645d460924dcc8bfc0ee85"
         }
       ]
     },
@@ -73,8 +73,8 @@
       "sources" : [
         {
           "type" : "archive",
-          "url" : "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.4.tar.xz",
-          "sha256" : "e954c09b4309a7ef93e13b69260acdc5738c907477eb381b78bb1e414ee6dbd8"
+          "url" : "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.5.tar.xz",
+          "sha256" : "705c6d29f4116a29bde4e36cfc1b046c92b6ef8c6dae4eaec85018747e6da5aa"
         }
       ]
     },
@@ -101,8 +101,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.66/glibmm-2.66.2.tar.xz",
-          "sha256": "b2a4cd7b9ae987794cbb5a1becc10cecb65182b9bb841868625d6bbb123edb1d"
+          "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.66/glibmm-2.66.6.tar.xz",
+          "sha256": "5358742598181e5351d7bf8da072bf93e6dd5f178d27640d4e462bc8f14e152f"
         }
       ]
     },
@@ -115,22 +115,19 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.cairographics.org/releases/cairomm-1.14.3.tar.xz",
-          "sha256": "0d37e067c5c4ca7808b7ceddabfe1932c5bd2a750ad64fb321e1213536297e78"
+          "url": "https://www.cairographics.org/releases/cairomm-1.14.4.tar.xz",
+          "sha256": "4749d25a2b2ef67cc0c014caaf5c87fa46792fc4b3ede186fb0fc932d2055158"
         }
       ]
     },
     {
       "name": "pangomm",
       "buildsystem": "meson",
-      "config-opts": [
-        "-Dbuild-examples=false"
-      ],
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.gnome.org/pub/GNOME/sources/pangomm/2.46/pangomm-2.46.2.tar.xz",
-          "sha256": "57442ab4dc043877bfe3839915731ab2d693fc6634a71614422fb530c9eaa6f4"
+          "url": "http://ftp.gnome.org/pub/GNOME/sources/pangomm/2.46/pangomm-2.46.3.tar.xz",
+          "sha256": "410fe04d471a608f3f0273d3a17d840241d911ed0ff2c758a9859c66c6f24379"
         }
       ]
     },
@@ -146,8 +143,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.5.tar.xz",
-          "sha256":"856333de86689f6a81c123f2db15d85db9addc438bc3574c36f15736aeae22e6"
+          "url": "http://ftp.acc.umu.se/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.7.tar.xz",
+          "sha256":"1d7a35af9c5ceccacb244ee3c2deb9b245720d8510ac5c7e6f4b6f9947e6789c"
         }
       ]
     },
@@ -157,8 +154,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/google/googletest/archive/refs/tags/release-1.11.0.tar.gz",
-          "sha256": "b4870bf121ff7795ba20d20bcdd8627b8e088f2d1dab299a031c1034eddc93d5"
+          "url": "https://github.com/google/googletest/archive/refs/tags/v1.13.0.tar.gz",
+          "sha256": "ad7fdba11ea011c1d925b3289cf4af2c66a352e18d4c7264392fead75e919363"
         }
       ]
     },
