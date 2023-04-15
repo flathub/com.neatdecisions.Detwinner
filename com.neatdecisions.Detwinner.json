@@ -22,7 +22,6 @@
     "/lib/atkmm*",
     "/lib/cairomm*",
     "/lib/cmake",
-    "/lib/debug",
     "/lib/gdkmm*",
     "/lib/giomm*",
     "/lib/glibmm*",
