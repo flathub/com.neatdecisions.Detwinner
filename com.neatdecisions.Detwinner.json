@@ -154,6 +154,10 @@
           "type": "archive",
           "url": "https://github.com/neatdecisions/detwinner/archive/refs/tags/v0.4.2.tar.gz",
           "sha256": "a14928a9bcaf006fb05639978c0acc53011fbcef4552a699c61485b07b0d69bb"
+        },
+        {
+          "type": "patch",
+          "path": "fix-appdata.patch"
         }
       ]
     }
