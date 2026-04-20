@@ -1,7 +1,7 @@
 {
   "app-id": "com.neatdecisions.Detwinner",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "detwinner",
   "finish-args": [
@@ -68,6 +68,8 @@
       "name": "sigc++",
       "buildsystem": "meson",
       "config-opts": [
+        "-Dmaintainer-mode=false",
+        "-Dbuild-documentation=false",
         "-Dbuild-examples=false"
       ],
       "sources": [
@@ -82,6 +84,8 @@
       "name": "glibmm",
       "buildsystem": "meson",
       "config-opts": [
+        "-Dmaintainer-mode=false",
+        "-Dbuild-documentation=false",
         "-Dbuild-examples=false"
       ],
       "sources": [
@@ -96,7 +100,10 @@
       "name": "cairomm",
       "buildsystem": "meson",
       "config-opts": [
-        "-Dbuild-examples=false"
+        "-Dmaintainer-mode=false",
+        "-Dbuild-documentation=false",
+        "-Dbuild-examples=false",
+        "-Dbuild-tests=false"
       ],
       "sources": [
         {
@@ -109,6 +116,10 @@
     {
       "name": "pangomm",
       "buildsystem": "meson",
+      "config-opts": [
+        "-Dmaintainer-mode=false",
+        "-Dbuild-documentation=false"
+      ],
       "sources": [
         {
           "type": "archive",
@@ -121,6 +132,8 @@
       "name": "gtkmm",
       "buildsystem": "meson",
       "config-opts": [
+        "-Dmaintainer-mode=false",
+        "-Dbuild-documentation=false",
         "-Dbuild-demos=false",
         "-Dbuild-tests=false",
         "-Dbuild-x11-api=false",
